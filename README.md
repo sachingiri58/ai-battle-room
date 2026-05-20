@@ -5,6 +5,18 @@ A real-time AI-powered creative challenge platform. Participants compete by subm
 ---
 
 ## Quick Start
+## Login Page
+![Login Page](./screenshots/sign_in.png)
+
+
+## Registration Page
+![Registration Page](./screenshots/register.png)
+
+## Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+## Battle Room
+![Battle Room](./screenshots/battle-room.png)
 
 ### Prerequisites
 - Python 3.11+
