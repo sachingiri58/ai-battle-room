@@ -194,9 +194,9 @@ export default function RoomPage() {
           job_status: "queued",
         });
         break;
-      case "job_update":
+     case "job_update":
         updateSubmission(p.submission_id as string, {
-          job_status: p.status as string,
+          job_status: p.status as import("@/types").JobStatus,
           output: p.output as string | undefined,
           error: p.error as string | undefined,
         });
